@@ -388,7 +388,7 @@
       <con:properties>
           <con:property>
               <con:name>#{ T(gov.hhs.onc.phiz.web.test.soapui.PhizSoapUiProperties).EXCEPTION_CLASSES_NAME }</con:name>
-              <con:value>#{ T(java.net.SocketException).name }</con:value>
+              <con:value>#{ T(javax.net.ssl.SSLHandshakeException).name }</con:value>
           </con:property>
           <con:property>
               <con:name>#{ T(gov.hhs.onc.phiz.web.test.soapui.PhizSoapUiProperties).SSL_SOCKET_FACTORY_NAME }</con:name>
